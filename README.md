@@ -1,5 +1,5 @@
 
-Install SpaceVim on Linux
+Install VimPlugin on Linux
 
 Install Process:
 
