@@ -45,6 +45,30 @@ Notice: You have to install them by corresponding package manager. For expample:
     Arch
 
         sudo pacman -S git
+        
+        
+If you face this problem like-
+
+    E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavailable)  
+    E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend),   
+    is another process using it?
+    
+    
+    solution : 
+    just run in terminal:
+
+    sudo killall apt apt-get
+
+    If none of the above works, remove the lock files. Run in terminal:
+    sudo rm /var/lib/apt/lists/lock
+    sudo rm /var/cache/apt/archives/lock
+    sudo rm /var/lib/dpkg/lock*
+
+    then reconfigure the packages. Run in terminal:
+
+    sudo dpkg --configure -a 
+    sudo apt update 
+     
 
 Start to install
 
