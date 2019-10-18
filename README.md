@@ -88,3 +88,7 @@ After finishing downloading plugins, you installed SpaceVim successfully!
   ![fff5](https://user-images.githubusercontent.com/22427255/67116287-f9ce2000-f194-11e9-90d7-ef2cf44cc095.png)
     
   Notice: If your vim doesn't have +lua and +python support, please install vim that has them or build vim from source.
+  
+  Type vim test.cpp
+  
+    Congratulations! your plugin is ready!!!
