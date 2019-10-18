@@ -1,2 +1,2 @@
-# inbox
+# Vim Plugin
 optional inbox
